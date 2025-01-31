@@ -8,7 +8,7 @@ import Skills from "./components/Skills";
 
 export default function App() {
   return (
-    <>
+    <div className="overflow-hidden">
       <Navbar/>
       <Hero/>
       <Skills/>
@@ -16,6 +16,6 @@ export default function App() {
       {/* <Experience/> */}
       <Contact/>
       <Footer/>
-    </>
+    </div>
   )
 }

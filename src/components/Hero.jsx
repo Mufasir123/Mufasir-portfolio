@@ -30,7 +30,7 @@ const Hero = () => {
             >
                 <TypeAnimation
                     sequence={[
-                        "Frontend Dev",
+                        "Fullstack Dev",
                         1000,
                     ]}
                     speed={50}
@@ -55,7 +55,7 @@ const Hero = () => {
                 viewport={{ once: true }}
                 transition={{ duration: 1, delay: 1 }}
                 className="text-gray-300 max-w-[300px] md:max-w-[500px] md:text-2xl text-lg mb-6"
-                >I am a passionate front-end developer with experience in building projects              
+                >I am a passionate fullstack and front-end developer with experience in building projects              
                 </motion.p>
 
                 <motion.div
@@ -73,15 +73,15 @@ const Hero = () => {
                     </motion.a>
 
                     <div className="flex gap-6 flex-row text-4xl md:text-6xl text-purple-400 z-20">
-                        <motion.a whileHover={{ scale: 1.2 }} href="#">
+                        <motion.a whileHover={{ scale: 1.2 }} href="https://github.com/Mufasir123">
                             <AiOutlineGithub/>
                         </motion.a>
 
-                        <motion.a whileHover={{ scale: 1.2 }} href="#">
+                        <motion.a whileHover={{ scale: 1.2 }} href="https://www.linkedin.com/in/mufasir-ahamed-26600917b/">
                             <AiOutlineLinkedin/>
                         </motion.a>
 
-                        <motion.a whileHover={{ scale: 1.2 }} href="#">
+                        <motion.a whileHover={{ scale: 1.2 }} href="https://www.instagram.com/mufasir_ah_amed/">
                             <AiOutlineInstagram/>
                         </motion.a>
                     </div>

@@ -27,8 +27,8 @@ const skills = [
     {
       category: 'Fullstack',
       technologies: [
-        { name: 'Node Js basic', icon: <DiNodejsSmall className='text-green-500' /> },
-        { name: 'MongoDB basic', icon: <DiMongodb className='text-green-600' /> },
+        { name: 'Node Js', icon: <DiNodejsSmall className='text-green-500' /> },
+        { name: 'MongoDB', icon: <DiMongodb className='text-green-600' /> },
         { name: 'React', icon: <DiReact className='text-blue-500' /> },
         { name: 'GitHub', icon: <DiGithubBadge className='text-gray-600' /> },
       ],

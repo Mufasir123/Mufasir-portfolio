@@ -2,10 +2,20 @@ import React from 'react';
 import fashions from "../assets/fashions.png"
 import apple from "../assets/apple.png"
 import simple from "../assets/simple.png"
+import deliverySystem from '../assets/deliverySystem.png'
 import { AiFillGithub, AiOutlineGithub } from 'react-icons/ai'
 import Reveal from './Reveal';
 
 const projects = [
+  {
+    img: deliverySystem,
+    title: "Food Delivery System",
+    description: "This project offers a streamlined food ordering experience, enabling users to browse, customize, and order meals with ease.",
+    links: {
+      site: "https://food-delivery-system-two-swart.vercel.app/",
+      github: "https://github.com/Mufasir123/Food-Delivery-System",
+  }
+},
     {
       img: fashions,
       title: "Shahid Fashions",
@@ -40,8 +50,8 @@ const Portfolio = () => {
     <div className='max-w-[1000px] mx-auto p-6 md:my-20' id="portfolio">
         <h2 className='text-3xl font-bold text-gray-200 mb-8'>Projects</h2>
         {projects.map((project, index) => (
-            <Reveal>
-            <div key={index} 
+            <Reveal  key={index}>
+            <div  
             className={`flex flex-col md:flex-row ${index % 2 !== 0 ? 'md:flex-row-reverse' : ''} mb-12`}>
                 <div className='w-full md:w-1/2 p-4'>
                     <img
