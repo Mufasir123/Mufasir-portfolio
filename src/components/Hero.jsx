@@ -65,7 +65,7 @@ const Hero = () => {
           >
             <motion.a
               href="Mufasir-ahamed-resume-new.pdf"
-              download="Mufasir-ahamed-resume-new.pdf"
+              download="resume_mufasir_ahamed (1).pdf"
               whileHover={{
                 scale: 1.05,
                 boxShadow: "0px 0px 8px rgba(0, 0, 0, 0.3)",
