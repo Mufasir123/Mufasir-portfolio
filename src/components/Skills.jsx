@@ -1,8 +1,6 @@
-import React from "react"
 import {
   DiHtml5,
   DiCss3,
-  DiSass,
   DiBootstrap,
   DiJavascript1,
   DiReact,

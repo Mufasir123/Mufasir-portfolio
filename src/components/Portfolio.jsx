@@ -1,9 +1,9 @@
-import React from 'react';
 import fashions from "../assets/fashions.png"
 import apple from "../assets/apple.png"
 import simple from "../assets/simple.png"
+import coupon from "../assets/1.jpeg"
 import deliverySystem from '../assets/deliverySystem.png'
-import { AiFillGithub, AiOutlineGithub } from 'react-icons/ai'
+import { AiOutlineGithub } from 'react-icons/ai'
 import Reveal from './Reveal';
 
 const projects = [
@@ -15,6 +15,15 @@ const projects = [
       site: "https://food-delivery-system-two-swart.vercel.app/",
       github: "https://github.com/Mufasir123/Food-Delivery-System",
   }
+},{
+
+  img: coupon,
+      title: "Coupon Claim",
+      description: "This website offers a different types of coupon, enabling users to claim a coupon without login or register just you need to accept the cookie. Using cookies will automatically track users activities and hou much coupons claim a user. After accept cookies reload page one time to claim a coupon. Once user claim a coupon after 1hour the user can claim another coupon.",
+      links: {
+        site: "https://sales-stdio-assignment.vercel.app/",
+        github: "https://github.com/Mufasir123/salesStdioAssignment",
+      }
 },
     {
       img: fashions,

@@ -1,11 +1,9 @@
-import React from "react";
-import profilepic from "../assets/profpic.png";
 import { TypeAnimation } from "react-type-animation";
 import ShinyEffect from "./ShinyEffect";
+
 import {
   AiOutlineGithub,
   AiOutlineInstagram,
-  AiOutlineLink,
   AiOutlineLinkedin,
 } from "react-icons/ai";
 import {
@@ -64,7 +62,7 @@ const Hero = () => {
             className="flex flex-row items-center gap-6 my-4 md:mb-0"
           >
             <motion.a
-              href="Mufasir-ahamed-resume-new.pdf"
+              href="resume_mufasir_ahamed (1).pdf"
               download="resume_mufasir_ahamed (1).pdf"
               whileHover={{
                 scale: 1.05,
