@@ -62,8 +62,8 @@ const Hero = () => {
             className="flex flex-row items-center gap-6 my-4 md:mb-0"
           >
             <motion.a
-              href="resume_mufasir_ahamed (1).pdf"
-              download="resume_mufasir_ahamed (1).pdf"
+              href="resume_mufasir_ahamed (2).pdf"
+              download="resume_mufasir_ahamed (2).pdf"
               whileHover={{
                 scale: 1.05,
                 boxShadow: "0px 0px 8px rgba(0, 0, 0, 0.3)",

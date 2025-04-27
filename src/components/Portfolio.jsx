@@ -3,19 +3,29 @@ import apple from "../assets/apple.png"
 import simple from "../assets/simple.png"
 import coupon from "../assets/1.jpeg"
 import deliverySystem from '../assets/deliverySystem.png'
+import social from '../assets/Social.png'
 import { AiOutlineGithub } from 'react-icons/ai'
 import Reveal from './Reveal';
 
 const projects = [
   {
-    img: deliverySystem,
+    img: social,
+    title: "Social Causes",
+    description: "This project is developed for educational purpose. This website contains educational content",
+    links: {
+      site: "https://social-cause-assignment.vercel.app/",
+      
+  }
+},
+{
+  img: deliverySystem,
     title: "Food Delivery System",
     description: "This project offers a streamlined food ordering experience, enabling users to browse, customize, and order meals with ease.",
     links: {
       site: "https://food-delivery-system-two-swart.vercel.app/",
       github: "https://github.com/Mufasir123/Food-Delivery-System",
-  }
-},{
+}},
+{
 
   img: coupon,
       title: "Coupon Claim",
